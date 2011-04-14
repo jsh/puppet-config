@@ -1,0 +1,15 @@
+#!/bin/bash -eu
+
+export ANDROID_HOME=/usr/share/android-sdk-linux_x86
+
+PATH+=:/usr/share/eclipse:/usr/share/android-sdk-linux_x86/tools:/usr/share/android-sdk-linux_x86/platform-tools:/usr/share/eclipse:/usr/share/android-sdk-linux_x86/tools:/usr/share/android-sdk-linux_x86/platform-tools
+
+/usr/share/eclipse/android-sdk-linux_x86/tools/emulator -avd android2.1 &
+
+while true; do
+  if ps ajax | grep tools[/]emulator | grep Sl ; then
+    sleep 5
+    ps ajax | grep tools[/]emulator | grep Sl && break 
+  fi
+  sleep 5
+done
