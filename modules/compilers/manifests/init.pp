@@ -1,5 +1,6 @@
 # /etc/puppet/modules/gcc/manifests/init.pp
 
-class gcc {
+class compilers {
     package {"gcc": ensure => installed }
+    package {"g++": ensure => installed }
 }

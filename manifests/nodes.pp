@@ -1,7 +1,7 @@
 # /etc/puppet/manifests/node.pp
 
 node default {
-  include gcc
+  include compilers
   include git
   include hudsonslave
   include maven2
