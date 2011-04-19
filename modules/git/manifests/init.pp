@@ -1,4 +1,4 @@
-# /etc/puppet/modules/ntp/manifests/init.pp
+# /etc/puppet/modules/git/manifests/init.pp
 
 class git {
     package {"git-core": ensure => installed }
