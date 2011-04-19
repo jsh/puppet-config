@@ -5,6 +5,7 @@ node default {
   include git
   include hudsonslave
   include maven2
+  include ncurses
   include ntp
   include sudo
   include timezone::mountain
