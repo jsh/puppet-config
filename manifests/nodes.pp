@@ -10,6 +10,7 @@ node default {
   include sudo
   include timezone::mountain
   include tree
+  include x11
 #  include users
   include zip
   include zlib
