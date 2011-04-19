@@ -10,5 +10,7 @@ node default {
   include timezone::mountain
   include tree
 #  include users
+  include zip
+  include zlib
   include vim
 }
