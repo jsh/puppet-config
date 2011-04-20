@@ -2,6 +2,7 @@
 
 node default {
   include compilers
+  include expect
   include gperf
   include git
   include hudsonslave
