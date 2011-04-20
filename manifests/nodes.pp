@@ -2,6 +2,7 @@
 
 node default {
   include compilers
+  include gperf
   include git
   include hudsonslave
   include maven2
