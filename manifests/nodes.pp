@@ -4,7 +4,6 @@ node default {
   include compilers
   include expect
   include gperf
-  include git
   include hudsonslave
   include maven2
   include ncurses
@@ -12,6 +11,7 @@ node default {
   include sudo
   include timezone::mountain
   include tree
+  include vcs
   include x11
 #  include users
   include zip
