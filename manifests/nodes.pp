@@ -18,6 +18,7 @@ node default {
   include tree
   include vcs
   include x11
+  include xsel
 #  include users
   include zip
   include zlib
