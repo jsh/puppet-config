@@ -15,6 +15,7 @@ node default {
   include maven2
   include ncurses
   include ntp
+  include putty
   include repos
   include sip-tester
   include sudo
