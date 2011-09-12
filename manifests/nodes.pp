@@ -16,6 +16,7 @@ node default {
   include ncurses
   include ntp
   include repos
+  include sip-tester
   include sudo
   include timezone::mountain
   include tree
