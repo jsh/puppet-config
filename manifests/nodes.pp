@@ -12,6 +12,7 @@ node default {
   include gperf
 #  include java
 #  include hudsonslave
+  include mail
   include maven2
   include ncurses
   include ntp
