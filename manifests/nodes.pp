@@ -19,6 +19,7 @@ node default {
   include putty
   include repos
   include sip-tester
+  include ssh
   include sudo
   include timezone::mountain
   include tree
