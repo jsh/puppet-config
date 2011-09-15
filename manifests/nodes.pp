@@ -14,10 +14,13 @@ node default {
 #  include hudsonslave
   include maven2
   include ncurses
+  include net
   include ntp
+  include pcap
   include putty
   include repos
   include sip-tester
+  include ssl
   include sudo
   include timezone::mountain
   include tree
