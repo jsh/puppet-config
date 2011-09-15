@@ -12,6 +12,7 @@ node default {
   include gperf
 #  include java
 #  include hudsonslave
+  include mail
   include maven2
   include ncurses
   include net
@@ -21,6 +22,7 @@ node default {
   include repos
   include sip-tester
   include ssl
+  include ssh
   include sudo
   include timezone::mountain
   include tree
