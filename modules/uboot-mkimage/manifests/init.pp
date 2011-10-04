@@ -1,6 +1,6 @@
 # /etc/puppet/modules/uboot-mkimage/manifests/init.pp
 
-class tree {
+class uboot-mkimage {
 
     package {"uboot-mkimage": ensure => installed }
 
