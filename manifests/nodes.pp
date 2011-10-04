@@ -26,11 +26,12 @@ node default {
   include sudo
   include timezone::mountain
   include tree
+  include uboot-mkimage
   include vcs
+  include vim
   include x11
   include xsel
 #  include users
   include zip
   include zlib
-  include vim
 }
