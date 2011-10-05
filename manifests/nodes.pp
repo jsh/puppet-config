@@ -1,7 +1,6 @@
 # /etc/puppet/manifests/node.pp
 
 node default {
-  include 64bit
   include build-essential
   include chromium
   include compilers
@@ -10,6 +9,10 @@ node default {
   include expect
   include eclipse
   include gperf
+  case $::architecture { 
+    'i386'  : { include architecture::i386   }
+    'x86_64': { include architecture::x86_64 }
+  }
 #  include java
 #  include hudsonslave
   include mail

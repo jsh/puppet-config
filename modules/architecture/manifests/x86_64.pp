@@ -1,6 +1,6 @@
-# /etc/puppet/modules/64bit/manifests/init.pp
+# /etc/puppet/modules/architecture/manifests/x86_64.pp
 
-class 64bit {
+class architecture::x86_64 {
     package {"lib32ncurses5-dev": ensure => installed }
     package {"ia32-libs": ensure => installed }
     package {"gcc-multilib": ensure => installed }
