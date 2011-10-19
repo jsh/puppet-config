@@ -19,9 +19,12 @@ node default {
   include maven2
   include ncurses
   include net
+  include nfs
   include ntp
   include pcap
+  include pidgin
   include putty
+  include remake
   include repos
   include sip-tester
   include ssl
