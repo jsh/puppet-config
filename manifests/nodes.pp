@@ -31,6 +31,7 @@ node default {
   include ssl
   include ssh
   include sudo
+  include tftpboot
   include timezone::mountain
   include tree
   include uboot-mkimage
