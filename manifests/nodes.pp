@@ -1,6 +1,7 @@
 # /etc/puppet/manifests/node.pp
 
 node default {
+  include bob
   include build-essential
   include chromium
   include compilers
