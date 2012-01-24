@@ -24,10 +24,12 @@ node default {
   include ntp
   include pcap
   include pidgin
+#  include puppet
   include putty
   include remake
   include repos
   include sip-tester
+  include sloccount
   include ssl
   include ssh
   include sudo
