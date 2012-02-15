@@ -1,6 +1,7 @@
 # /etc/puppet/manifests/node.pp
 
 node default {
+  include ant
   include bob
   include build-essential
   include chromium
@@ -33,6 +34,7 @@ node default {
   include ssl
   include ssh
   include sudo
+  include terminator
   include tftpboot
   include timezone::mountain
   include tree
